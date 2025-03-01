@@ -1,0 +1,95 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eec290; /* Beige cálido con el color solicitado */
+    color: #333; /* Gris oscuro */
+    text-align: center;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff; /* Fondo blanco para los elementos */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título y el texto introductorio */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #666; /* Gris claro */
+}
+
+/* Estilo para los labels */
+label {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    display: block;
+    color: #555; /* Gris más oscuro */
+}
+
+/* Estilo para los inputs */
+input[type="number"] {
+    width: 100px;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Gris muy claro */
+    border-radius: 4px;
+    background-color: #fff; /* Blanco */
+    color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efecto de enfoque para los inputs */
+input[type="number"]:focus {
+    border-color: #b3b3b3; /* Gris medio */
+    background-color: #fafafa; /* Gris muy claro */
+    outline: none;
+}
+
+/* Estilo de los botones */
+button {
+    padding: 12px 25px;
+    margin: 10px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Gris claro */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e0e0e0; /* Gris suave */
+    color: #333; /* Gris oscuro */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Colores de los botones al pasar el ratón */
+button:hover {
+    background-color: #d0d0d0; /* Gris más oscuro */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los resultados */
+p#sumando, p#restando, p#multiplicando, p#dividiendo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333; /* Gris oscuro */
+}
+
+/* Estilo final para el pie de página */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888; /* Gris medio */
+}
